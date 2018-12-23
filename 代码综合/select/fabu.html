@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ebang</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <style>
+     .slider{max-width:1920px;text-align:center;}
+   .heights{height:30px;}
+    </style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+ <div class="heads">
+     <div class="top">
+     
+     </div><!--top/-->
+    </div><!--heads/-->
+    <h1 class="xlogo">
+     <a href="index.html"><img src="images/logo.png" width="90" height="90" /></a>
+    </h1>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="../index/index.html">首页</a></li>
+        <li><a href="../select/shiwu.html">失物招领</a> </li>
+        <li class="navCur"><a href="../select/jianzhi.html">兼职地带</a></li>
+        <li><a href="../select/xianzhi.html">闲置交易</a></li>
+        <li><a href="../select/xuexi.html">学习资讯</a></li>
+
+      </ul>
+     </nav>
+    <div class="heights">&nbsp;</div>
+    <div class="selectBox">
+     <table width="100%">
+  
+    
+    
+      <tr>
+       <td colspan="2" align="center">
+        <div class="btn-group">
+       
+        </div>
+       </td>
+      </tr>
+     </table><!--/-->
+    </div><!--selectBox/-->
+
+    <div class="container">
+        <div class="wrap">
+            <article>
+                <section>
+                    <aside>
+                       <h3>NewMessage</h3>
+                         <form action="" method="post">
+                         	<dir>
+                         		<span>请输入标题：</span><input type="text" id="topic">
+							</dir>
+							<dir>
+								<span>正文:</span>
+							</dir>
+    						<dir>
+    						<textarea name="stubz" rows="10" cols="60" placeholder="请添加您对此次发布的详细描述哦！"></textarea>
+							</dir>
+							<div>
+							   	<span>分类:</span>
+							   	<select name="stuzy">
+          							<option value="lost" id="lost" selected>失物招领</option>
+          							<option value="ptj" id="ptj">兼职地带</option>
+          							<option value="change"  id="change">闲置交易</option>
+          							<option value="love"  id="love">表白墙</option>
+          							<option value="study"  id="study">学习资讯</option>
+          							<option value="others"  id="others">其他</option>
+       							</select>
+    						</div>
+    						<div>
+       							<span>上传照片:</span>
+       							<input type="file" name="photo"/>
+    						</div>
+							<button>
+								<a href="../select/shiwu.html">发布</a>
+							</button>
+							<button>
+								<a href="">保存</a>
+							</button>
+
+
+
+
+
+                        </form>
+                    </aside>            
+                </section>               
+            </article>
+        </div>
+    </div>
+</body>
+</html>
